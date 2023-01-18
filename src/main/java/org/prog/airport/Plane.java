@@ -17,7 +17,8 @@ public class Plane {
 
   public void boardPassenger(String name, int sitNumber) {
     if (sitNumber < passengers.length && passengers[sitNumber] == null) {
-      System.out.println("Boarding done for " + name + " on flight " + flightId + " to " + flightDestination);
+      System.out.println("Boarding done for " + name + " on flight " + flightId +
+              " to " + flightDestination);
       passengers[sitNumber] = name;
     } else {
       offerFreeSit(name);
@@ -29,7 +30,8 @@ public class Plane {
     int freeSit = getFreeSit();
 
     if (freeSit >= 0 && freeSit < passengers.length) {
-      System.out.println("Backup sit found for " + name + " on flight " + flightId + " to " + flightDestination);
+      System.out.println("Backup sit found for " + name + " on flight " + flightId +
+              " to " + flightDestination);
       passengers[freeSit] = name;
     } else {
       System.out.println("Flight " + flightId + " had no sits for passenger " + name);
