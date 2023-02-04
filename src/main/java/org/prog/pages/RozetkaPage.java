@@ -27,7 +27,6 @@ public class RozetkaPage {
     driver.findElement(By.name("search")).sendKeys(value);
     driver.findElement(By.className("search-form__submit")).click();
   }
-
   public WebElement verifySearchResult() {
     return new WebDriverWait(driver, Duration.ofSeconds(10))
         .until(ExpectedConditions.visibilityOfElementLocated(TOP_SALES_LABEL));
