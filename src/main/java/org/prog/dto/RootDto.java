@@ -1,4 +1,4 @@
-package org.prog;
+package org.prog.dto;
 
 import java.util.List;
 import lombok.AllArgsConstructor;
@@ -10,6 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 @Getter
-public class Car {
-  private List<Passenger> passengers;
+public class RootDto {
+  private List<PersonDto> results;
+  private InfoDto info;
 }
