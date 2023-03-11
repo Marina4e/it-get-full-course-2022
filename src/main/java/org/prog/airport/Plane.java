@@ -1,4 +1,4 @@
-package org.prog.airport;
+/*package org.prog.airport;
 
 import java.util.HashMap;
 
@@ -36,4 +36,4 @@ public class Plane {
       passengers.put(passenger.getSitId(), passenger);
     }
   }
-}
+}*/

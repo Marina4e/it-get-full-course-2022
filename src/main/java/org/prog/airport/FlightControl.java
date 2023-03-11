@@ -1,13 +1,13 @@
-package org.prog.airport;
+//package org.prog.airport;
 
 import java.util.ArrayList;
-import org.prog.exceptions.PlaneNotFoundException;
+//import org.prog.exceptions.PlaneNotFoundException;
 
-public class FlightControl {
+//public class FlightControl {
 
-  private final ArrayList<Plane> planes;
+  //private final ArrayList<Plane> planes;
 
-  private final ArrayList<Passenger> passengers;
+/*  private final ArrayList<Passenger> passengers;
 
   public FlightControl(ArrayList<Plane> planes) {
     this.planes = planes;
@@ -43,5 +43,5 @@ public class FlightControl {
 
   public void registerPassenger(Passenger passenger) {
     passengers.add(passenger);
-  }
-}
+  }}*/
+
